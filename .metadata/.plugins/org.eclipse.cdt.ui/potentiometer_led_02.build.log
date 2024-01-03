@@ -1,0 +1,17 @@
+08:53:31 **** Incremental Build of configuration Debug for project potentiometer_led_02 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "potentiometer_led_02.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\singh\STM32CubeIDE\workspace_1.13.1\potentiometer_led_02\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="potentiometer_led_02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: potentiometer_led_02.elf
+ 
+arm-none-eabi-size   potentiometer_led_02.elf 
+arm-none-eabi-objdump -h -S  potentiometer_led_02.elf  > "potentiometer_led_02.list"
+   text	   data	    bss	    dec	    hex	filename
+  14532	     20	   1780	  16332	   3fcc	potentiometer_led_02.elf
+Finished building: default.size.stdout
+ 
+Finished building: potentiometer_led_02.list
+ 
+
+08:53:32 Build Finished. 0 errors, 0 warnings. (took 877ms)
+

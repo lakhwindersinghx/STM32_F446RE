@@ -1,0 +1,153 @@
+2023-09-12 14:08:21,526 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.util.ConcurrentModificationException
+2023-09-12 14:08:21,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1597)
+2023-09-12 14:08:21,546 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1620)
+2023-09-12 14:08:21,548 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.components.util.StringSearchable.search(StringSearchable.java:42)
+2023-09-12 14:08:21,551 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.components.swing.AutocompleteComboBox$4.run(AutocompleteComboBox.java:215)
+2023-09-12 14:08:21,553 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2023-09-12 14:08:21,555 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+2023-09-12 14:08:21,557 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2023-09-12 14:08:21,558 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2023-09-12 14:08:21,559 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-09-12 14:08:21,561 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-09-12 14:08:21,562 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+2023-09-12 14:08:21,564 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-09-12 14:08:21,565 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-09-12 14:08:21,566 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+2023-09-12 14:08:21,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191)
+2023-09-12 14:08:21,569 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236)
+2023-09-12 14:08:21,571 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234)
+2023-09-12 14:08:21,572 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+2023-09-12 14:08:21,573 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234)
+2023-09-12 14:08:21,574 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Dialog.show(Dialog.java:1080)
+2023-09-12 14:08:21,575 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.show(Component.java:1728)
+2023-09-12 14:08:21,576 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.setVisible(Component.java:1675)
+2023-09-12 14:08:21,577 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Window.setVisible(Window.java:1036)
+2023-09-12 14:08:21,578 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016)
+2023-09-12 14:08:21,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.ProcessBarDialog.doAction(ProcessBarDialog.java:173)
+2023-09-12 14:08:21,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.completeLoadConfig(MxSystem.java:829)
+2023-09-12 14:08:21,583 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.LoadConfig(OpenFileManager.java:320)
+2023-09-12 14:08:21,587 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:246)
+2023-09-12 14:08:21,599 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:285)
+2023-09-12 14:08:21,602 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246)
+2023-09-12 14:08:21,606 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184)
+2023-09-12 14:08:21,607 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065)
+2023-09-12 14:08:21,610 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492)
+2023-09-12 14:08:21,613 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291)
+2023-09-12 14:08:21,614 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166)
+2023-09-12 14:08:21,617 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2023-09-12 14:08:21,619 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+2023-09-12 14:08:21,620 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2023-09-12 14:08:21,622 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2023-09-12 14:08:21,623 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-09-12 14:08:21,625 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-09-12 14:08:21,627 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+2023-09-12 14:08:21,628 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-09-12 14:08:21,630 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-09-12 14:08:21,633 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-09-12 14:08:21,635 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-09-12 14:08:21,637 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-09-12 14:08:21,639 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-09-12 14:08:21,759 [INFO] UtilMem:75 - Before build in PCC Used Memory: 411322800 Bytes (1073741824)
+2023-09-12 14:08:21,914 [INFO] UtilMem:75 - After build in PCC Used Memory: 459705760 Bytes (1073741824)
+2023-09-12 14:08:21,931 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,931 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,931 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,931 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,932 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,933 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,934 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,935 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,937 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,937 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,937 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,937 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,937 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,938 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,938 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,938 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,938 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,938 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,939 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,939 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,939 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,940 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,940 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,940 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,941 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,941 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,942 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,942 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-09-12 14:08:21,944 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-09-12 14:08:21,964 [INFO] CADModel:165 - CPN selected for project levelSTM32F446RET6
+2023-09-12 14:08:21,964 [INFO] CADModel:114 - Register for checkConnection events
+2023-09-12 14:08:22,005 [INFO] OpenFileManager:328 - Restore cursor
+2023-09-12 14:09:24,063 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 746626848 Bytes (1073741824)
+2023-09-12 14:09:24,894 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874948536 Bytes (1073741824)
+2023-09-12 14:09:25,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-12 14:09:25,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-12 14:09:25,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-12 14:09:25,127 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-12 14:09:25,129 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-12 14:09:25,382 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\license.tmp_save
+2023-09-12 14:09:25,486 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\license.tmp
+2023-09-12 14:09:25,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\gpio.tmp_save
+2023-09-12 14:09:25,654 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\gpio.tmp
+2023-09-12 14:09:25,689 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\stm32f4xx_it.c_save
+2023-09-12 14:09:25,802 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\stm32f4xx_it.c
+2023-09-12 14:09:25,813 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\stm32f4xx_it.h_save
+2023-09-12 14:09:25,894 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\stm32f4xx_it.h
+2023-09-12 14:09:25,924 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-12 14:09:26,056 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\stm32f4xx_hal_msp.c
+2023-09-12 14:09:26,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\system.tmp_save
+2023-09-12 14:09:26,138 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\MXTmpFiles\system.tmp
+2023-09-12 14:09:26,166 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-12 14:09:26,286 [INFO] CodeEngine:335 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-12 14:09:26,312 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-09-12 14:09:26,337 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\main.h_save
+2023-09-12 14:09:26,457 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Inc\main.h
+2023-09-12 14:09:26,477 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\main.c_save
+2023-09-12 14:09:26,614 [INFO] CodeEngine:279 - Generated code: C:\Users\singh\STM32CubeIDE\workspace_1.13.1\ext_led_blink_01\Core\Src\main.c
+2023-09-12 14:09:27,239 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 282mS.
+2023-09-12 14:09:27,244 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-12 14:09:27,425 [INFO] ConfigFileManager:1457 - The Die is : DIE421
+2023-09-12 14:09:27,427 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-09-12 14:09:27,427 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-09-12 14:09:27,432 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-09-12 14:09:27,434 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-09-12 14:09:27,441 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-09-12 14:09:27,441 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-09-12 14:09:29,371 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 2127mS.
+2023-09-12 14:09:29,372 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-12 14:09:29,376 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.

@@ -1,0 +1,16 @@
+15:03:05 **** Incremental Build of configuration Debug for project potentiometer_led_04(success) ****
+make -j16 all 
+arm-none-eabi-gcc -o "potentiometer_led_04(success).elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\singh\STM32CubeIDE\workspace_1.13.1\potentio\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="potentiometer_led_04(success).map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: potentiometer_led_04(success).elf
+ 
+arm-none-eabi-size   potentiometer_led_04(success).elf 
+arm-none-eabi-objdump -h -S  potentiometer_led_04(success).elf  > "potentiometer_led_04(success).list"
+c:/st/stm32cubeide_1.13.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.0.202305091550/tools/bin/sh: syntax error: unexpected "("
+make: *** [makefile:69: default.size.stdout] Error 2
+make: *** Waiting for unfinished jobs....
+c:/st/stm32cubeide_1.13.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.0.202305091550/tools/bin/sh: syntax error: unexpected "("
+make: *** [makefile:74: potentiometer_led_04(success).list] Error 2
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+15:03:06 Build Failed. 3 errors, 0 warnings. (took 567ms)
+

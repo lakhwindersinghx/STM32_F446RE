@@ -1,0 +1,10 @@
+13:32:05 **** Incremental Build of configuration Debug for project potentio_servo_01 ****
+make -j16 all 
+arm-none-eabi-size   potentio_servo_01.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17408	    100	   2188	  19696	   4cf0	potentio_servo_01.elf
+Finished building: default.size.stdout
+ 
+
+13:32:05 Build Finished. 0 errors, 0 warnings. (took 314ms)
+

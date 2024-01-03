@@ -1,0 +1,20 @@
+15:19:10 **** Incremental Build of configuration Debug for project day1_ledblink ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:51:13: warning: 'MX_GPIO_Init' used but never defined
+   51 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "day1_ledblink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\singh\STM32CubeIDE\workspace_1.13.1\day1_ledblink\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="day1_ledblink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/singh/STM32CubeIDE/workspace_1.13.1/day1_ledblink/Debug/../Core/Src/main.c:89: undefined reference to `MX_GPIO_Init'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `SystemClock_Config':
+C:/Users/singh/STM32CubeIDE/workspace_1.13.1/day1_ledblink/Debug/../Core/Src/main.c:137: undefined reference to `Error_Handler'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/singh/STM32CubeIDE/workspace_1.13.1/day1_ledblink/Debug/../Core/Src/main.c:151: undefined reference to `Error_Handler'
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `MX_USART2_UART_Init':
+C:/Users/singh/STM32CubeIDE/workspace_1.13.1/day1_ledblink/Debug/../Core/Src/main.c:180: undefined reference to `Error_Handler'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: day1_ledblink.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+15:19:12 Build Failed. 8 errors, 1 warnings. (took 2s.153ms)
+

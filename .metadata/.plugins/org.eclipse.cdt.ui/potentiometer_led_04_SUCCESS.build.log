@@ -1,0 +1,10 @@
+13:08:41 **** Incremental Build of configuration Debug for project potentiometer_led_04_SUCCESS ****
+make -j16 all 
+arm-none-eabi-size   potentiometer_led_04_SUCCESS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17100	    100	   2116	  19316	   4b74	potentiometer_led_04_SUCCESS.elf
+Finished building: default.size.stdout
+ 
+
+13:08:42 Build Finished. 0 errors, 0 warnings. (took 316ms)
+

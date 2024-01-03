@@ -1,0 +1,10 @@
+12:14:18 **** Incremental Build of configuration Debug for project photocell_01 ****
+make -j16 all 
+arm-none-eabi-size   photocell_01.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14000	    100	   2044	  16144	   3f10	photocell_01.elf
+Finished building: default.size.stdout
+ 
+
+12:14:19 Build Finished. 0 errors, 0 warnings. (took 508ms)
+
